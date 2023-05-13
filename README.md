@@ -5,6 +5,3 @@
 <img src="https://i.hizliresim.com/mgumv83.jpg" ></img>
 <br>
 <img src="https://i.hizliresim.com/ca66z8c.jpg"> </img>
-
-
-### NOT: Projenin MIT lisansı bulunmaktadır. Bu Projenin dosyalarını benden habersiz paylaşılması/satılması durumunda gerekli işlemler yapılacaktır!
