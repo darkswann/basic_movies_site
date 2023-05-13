@@ -2,7 +2,7 @@
 
 <h2> Siteden Görüntüler : </h2>
 
-<img src="https://www.hizliresim.com/no6nkri" ></img>
+<img src="https://i.hizliresim.com/mgumv83.jpg" ></img>
 <img src="https://i.hizliresim.com/ca66z8c.jpg"> </img>
 
 
