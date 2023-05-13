@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;                                                             /* https://github.com/darkswann*/
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #8A58A4;
+}
+
+.signup-form_head{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.signup-form{
+    width: 500px;
+    background: url('../images/arkaplan.jpg');                                              /* https://github.com/darkswann*/
+    background-position: bottom center;
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+    transition: 0.8s;
+}
+
+.signup-form input{
+    display: block;
+    width: 100%;
+    padding: 0 16px;
+    height: 44px;                                                   /* https://github.com/darkswann*/
+    text-align: center;
+    border: none;
+}
+
+.txt{
+    margin: 20px 0px;
+    border-radius: 6px;
+}
+
+.signup-btn{
+    margin-top: 60px;
+    margin-bottom: 20px;
+    background-color: #538fef;
+    border-radius: 44px;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.8s;
+    display: block;
+}                                                           /* https://github.com/darkswann*/
+
+.signup-btn:hover{
+    transform: scale(0.96);
+    background-color: #fff;
+    color: #538fef;
+}
+
+.signup-form a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 10px;                                                      /* https://github.com/darkswann*/
+    transition: 0.8s;
+    display: block;
+}
+
+.signup-form a:hover {
+    color: yellow;
+}

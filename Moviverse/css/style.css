@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box; 
+}
+
+body{
+    margin: 0;                                              /* https://github.com/darkswann*/
+}
+
+.main-header{
+    background-color: coral;                                
+    padding: 8px 16px;
+}
+
+.main-link{
+    text-decoration: none;
+    color:#fff;
+    font-weight: bold;
+    font-size: 21px;
+}                                                              
+
+.main-link:hover{
+    color:slateblue;
+}
+
+.main-nav{
+    display: inline-block;                                  
+    width: calc(100% - 99px);
+    text-align: right;
+}
+
+.main-nav-item{
+    display: inline-block;                                      /* https://github.com/darkswann*/
+    margin: 8px;
+}
+
+.main-nav-item a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.main-nav-item a:hover{
+    color:slateblue;
+}
+
+.main-nav-item-login a{
+    color: #fff;
+    background-color:#007D1C;
+    padding: 4px 16px;
+    transition: 0.6s;
+    border: 2px solid #fff;
+    border-radius: 8px;
+}
+
+.main-nav-item-login a:hover{                                           /* https://github.com/darkswann*/
+    color: #fff;
+    background-color: #233EFF;
+}
+
+.welcomebg{
+    background: url('../images/home-bg.jpeg');
+    padding: 1px;
+    height: 600px;
+    background-position:center;
+    background-size: cover;
+}
+
+.welcomebg h1{
+    text-align: center;
+    padding-top: 250px;
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.ana{
+    text-align: center;                                                 /* https://github.com/darkswann*/
+}
+
+.row{
+    margin-bottom: 100px;
+}
+
+.col{
+    display: inline-block;
+    width: 30%;
+    padding: 8px 16px;
+    margin: 10px;
+}
+
+.col h2{
+    color: rgba(5, 118, 122, 0.623);
+}
+
+.col-2{
+    height: 350px;
+    width: calc(50% - 49px);
+    display: inline-block;
+    background-color: brown;
+}
+
+.fac_left{
+    background: url('../images/features.jpeg');
+    background-position: top center;
+    background-size: cover;
+}                                                                   /* https://github.com/darkswann*/
+
+.fac_right{
+    background-color: #edf5f7;
+    vertical-align: top;
+    padding: 40px;
+}
+
+.fac_right h3{
+    font-size: 30px;
+}
+
+.fac_right a{
+    background-color: #fc997c;
+    color: #fff;
+    padding: 7px 15px;
+    font-size: 15px;
+    text-align: center;
+    border: 1px solid #fc997c;
+    border-radius: 3px;
+    margin-top: 15px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.fac a:hover{                                                       /* https://github.com/darkswann*/
+    border: 1px solid #fc997c;
+    color: #fc997c;
+    transition: 1s;
+    background-color: #fff;
+}
